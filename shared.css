@@ -25,7 +25,9 @@ li {
   text-align: right;
 }
 li:hover {
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.853);
+  border-radius: 10px;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 
 #Page-logo a {

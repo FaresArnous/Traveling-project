@@ -44,3 +44,33 @@
 #content a:hover {
   background-color: rgb(255, 190, 0);
 }
+#Destinations {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.Destination p {
+  text-align: center;
+  font-size: 24px;
+  color: rgb(124, 123, 123);
+  margin: 20px 0;
+}
+
+.Destination {
+  margin: 0 20px;
+  text-transform: uppercase;
+}
+
+.Destination img {
+  height: 200px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(67, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.Destination strong {
+  color: rgb(0, 160, 117);
+}

@@ -1,2 +1,54 @@
+body {
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+}
+
+header {
+  position: static;
+}
+main ul {
+  width: 800px;
+  margin: 0 auto;
+}
+main li {
+  display: flex;
+  background-color: white;
+  box-shadow: 13px 12px 4px rgba(0, 0, 0, 0.2);
+  /* margin: 20px; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+main li img {
+  width: 300px;
+  height: 280px;
+  object-fit: cover;
+}
 .Item-content {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Item-content h2 {
+  text-align: left;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  color: rgb(100, 187, 235);
+}
+.Item-content p {
+  font-family: "Quicksand", sans-serif;
+  color: rgb(77, 80, 90);
+  text-align: left;
+}
+
+.Actions a {
+  color: rgb(25, 171, 250);
+  text-decoration: none;
+}
+
+.Actions a:hover {
+  background-color: rgba(100, 188, 235, 0.312);
+  border-radius: 8px;
+  padding: 6px;
 }

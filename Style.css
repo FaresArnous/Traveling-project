@@ -46,6 +46,7 @@
 }
 #Destinations {
   display: flex;
+  justify-content: center;
   width: 90%;
   margin: auto;
   margin-bottom: 40px;
@@ -72,5 +73,18 @@
 }
 
 .Destination strong {
-  color: rgb(0, 160, 117);
+  color: rgb(0, 104, 160);
+}
+
+#Highlights h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  color: rgb(59, 67, 64);
+  margin: 24px 0;
+}
+
+#Highlights {
+  padding: 24px;
+  background: linear-gradient(180deg, rgb(209, 255, 252), rgb(161, 209, 241));
 }

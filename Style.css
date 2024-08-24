@@ -88,3 +88,7 @@
   padding: 24px;
   background: linear-gradient(180deg, rgb(209, 255, 252), rgb(161, 209, 241));
 }
+
+#Highlights ul {
+  list-style: none;
+}

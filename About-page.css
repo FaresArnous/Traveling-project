@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+}
+
+#Page-logo a {
+  color: rgb(183, 230, 235);
+}
+
+header {
+  position: static;
+}
+header a {
+  color: rgb(183, 230, 235);
+}
+header nav a:hover {
+  color: white;
+  background-color: rgba(100, 188, 235, 0.312);
+}

@@ -16,3 +16,30 @@ header nav a:hover {
   color: white;
   background-color: rgba(100, 188, 235, 0.312);
 }
+main {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  padding: 60px 20px;
+}
+
+#about {
+  padding: 15px;
+  width: 800px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 30px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+#about h2 {
+  font-size: 40px;
+  margin: auto;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 20px;
+  color: rgb(100, 187, 235);
+  text-align: center;
+}
+#about p {
+  color: rgb(77, 80, 90);
+  text-align: center;
+  font-size: large;
+}
